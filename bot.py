@@ -20,7 +20,7 @@ class Bot(Client):
             plugins={
                 "root": "plugins"
             },
-            workers=TG_BOT_WORKERS,
+            workers="file-sharing-bot-bice.vercel.app"
             bot_token=TG_BOT_TOKEN
         )
         self.LOGGER = LOGGER
